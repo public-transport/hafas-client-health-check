@@ -1,0 +1,27 @@
+{
+	"name": "hafas-client-health-check",
+	"description": "Check if a hafas-client instance and its endpoint work.",
+	"version": "1.0.0",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"example.js"
+	],
+	"keywords": [
+		"hafas-client",
+		"health",
+		"check",
+		"200",
+		"healthz"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/hafas-client-health-check",
+	"repository": "derhuerst/hafas-client-health-check",
+	"bugs": "https://github.com/derhuerst/hafas-client-health-check/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=6"
+	},
+	"dependencies": {
+	}
+}

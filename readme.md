@@ -1,6 +1,6 @@
 # hafas-client-health-check
 
-**Check if a [`hafas-client`](https://github.com/public-transport/hafas-client) instance and the underlying HAFAS endpoint work.**
+A heuristic to **check if a [`hafas-client`](https://github.com/public-transport/hafas-client) instance and the underlying HAFAS endpoint work.** It will query departures at a well-known station for the coming Monday 8am.
 
 [![npm version](https://img.shields.io/npm/v/hafas-client-health-check.svg)](https://www.npmjs.com/package/hafas-client-health-check)
 [![build status](https://api.travis-ci.org/derhuerst/hafas-client-health-check.svg?branch=master)](https://travis-ci.org/derhuerst/hafas-client-health-check)
@@ -19,7 +19,23 @@ npm install hafas-client-health-check
 ## Usage
 
 ```js
-// todo
+const createHafasClient = require('hafas-client')
+const dbProfile = require('hafas-client/p/db')
+const createHealthCheck = require('hafas-client-health-check')
+
+const hafasClient = createHafasClient(dbProfile, 'my-awesome-program')
+const berlinHbf = '8011160'
+const checkIfHealthy = createHealthCheck(hafasClient, berlinHbf)
+
+checkIfHealthy()
+.then((isHealthy) => {
+	if (isHealthy) console.error('hafas-client instance is healthy.')
+	else console.error('hafas-client instance is not healthy!')
+})
+.catch((err) => { // something exceptional happend
+	console.error(err)
+	process.exitCode = 1
+})
 ```
 
 

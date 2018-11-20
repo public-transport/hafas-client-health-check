@@ -24,5 +24,8 @@
 	},
 	"dependencies": {
 		"luxon": "^1.7.1"
+	},
+	"devDependencies": {
+		"hafas-client": "^3.5.0"
 	}
 }

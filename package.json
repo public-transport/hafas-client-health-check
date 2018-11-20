@@ -23,5 +23,6 @@
 		"node": ">=6"
 	},
 	"dependencies": {
+		"luxon": "^1.7.1"
 	}
 }

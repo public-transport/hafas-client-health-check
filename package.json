@@ -1,7 +1,7 @@
 {
 	"name": "hafas-client-health-check",
 	"description": "Check if a hafas-client instance and its endpoint work.",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"main": "index.js",
 	"files": [
 		"index.js",
@@ -26,9 +26,9 @@
 		"luxon": "^1.7.1"
 	},
 	"peerDependencies": {
-		"hafas-client": "^3.5.0"
+		"hafas-client": "^3.5 || ^4"
 	},
 	"devDependencies": {
-		"hafas-client": "^3.5.0"
+		"hafas-client": "^4.0.1"
 	}
 }

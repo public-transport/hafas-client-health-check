@@ -1,3 +1,5 @@
+'use strict'
+
 const createHafasClient = require('hafas-client')
 const dbProfile = require('hafas-client/p/db')
 const createHealthCheck = require('.')

@@ -20,15 +20,15 @@
 	"bugs": "https://github.com/derhuerst/hafas-client-health-check/issues",
 	"license": "ISC",
 	"engines": {
-		"node": ">=6"
+		"node": ">=10"
 	},
 	"dependencies": {
 		"luxon": "^1.7.1"
 	},
 	"peerDependencies": {
-		"hafas-client": "^3.5 || ^4"
+		"hafas-client": "^4 || ^5"
 	},
 	"devDependencies": {
-		"hafas-client": "^4.0.1"
+		"hafas-client": "^5.3.1"
 	}
 }

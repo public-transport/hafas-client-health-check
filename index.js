@@ -7,7 +7,6 @@ const isNonEmptyString = str => 'string' === typeof str && !!str
 const defaultHafasOpts = {
 	duration: 5,
 	remarks: false,
-	includeRelatedStations: false
 }
 
 const createHealthCheck = (hafas, stationId, hafasOpts = defaultHafasOpts) => {

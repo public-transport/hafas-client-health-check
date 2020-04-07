@@ -5,6 +5,8 @@ const {IANAZone, DateTime} = require('luxon')
 const isNonEmptyString = str => 'string' === typeof str && !!str
 
 const defaultHafasOpts = {
+	// https://github.com/derhuerst/cached-hafas-client/blob/c6a990d45dfab141870263e95f7ec7bdd49b3241/readme.md#bypassing-the-cache
+	[Symbol.for('cached-hafas-client:cached')]: false,
 	duration: 5,
 	remarks: false,
 }

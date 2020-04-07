@@ -1,16 +1,16 @@
 {
 	"name": "hafas-client-health-check",
 	"description": "Check if a hafas-client instance and its endpoint work.",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"main": "index.js",
 	"files": [
 		"index.js",
 		"example.js"
 	],
 	"keywords": [
+		"hafas",
 		"hafas-client",
 		"health",
-		"check",
 		"healthz"
 	],
 	"author": "Jannis R <mail@jannisr.de>",

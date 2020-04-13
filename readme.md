@@ -3,9 +3,9 @@
 A heuristic to **check if a [`hafas-client@5`](https://github.com/public-transport/hafas-client/tree/5) instance and the underlying HAFAS endpoint work.** It will query departures at a well-known station for the coming Monday 8am.
 
 [![npm version](https://img.shields.io/npm/v/hafas-client-health-check.svg)](https://www.npmjs.com/package/hafas-client-health-check)
-![ISC-licensed](https://img.shields.io/github/license/derhuerst/hafas-client-health-check.svg)
-[![chat with me on Gitter](https://img.shields.io/badge/chat%20with%20me-on%20gitter-512e92.svg)](https://gitter.im/derhuerst)
-[![support me on Patreon](https://img.shields.io/badge/support%20me-on%20patreon-fa7664.svg)](https://patreon.com/derhuerst)
+![ISC-licensed](https://img.shields.io/github/license/public-transport/hafas-client-health-check.svg)
+[![chat on gitter](https://badges.gitter.im/public-transport/Lobby.svg)](https://gitter.im/public-transport/Lobby)
+[![support Jannis via GitHub Sponsors](https://img.shields.io/badge/support%20Jannis-donate-fa7664.svg)](https://github.com/sponsors/derhuerst)
 
 
 ## Installation
@@ -40,4 +40,4 @@ checkIfHealthy()
 
 ## Contributing
 
-If you have a question or need support using `hafas-client-health-check`, please double-check your code and setup first. If you think you have found a bug or want to propose a feature, refer to [the issues page](https://github.com/derhuerst/hafas-client-health-check/issues).
+If you have a question or need support using `hafas-client-health-check`, please double-check your code and setup first. If you think you have found a bug or want to propose a feature, refer to [the issues page](https://github.com/public-transport/hafas-client-health-check/issues).

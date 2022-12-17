@@ -25,7 +25,7 @@
 		"luxon": "^1.7.1"
 	},
 	"peerDependencies": {
-		"hafas-client": "^4 || ^5"
+		"hafas-client": "^4 || ^5 || ^6"
 	},
 	"devDependencies": {
 		"hafas-client": "^5.3.1"

@@ -1,6 +1,6 @@
 # hafas-client-health-check
 
-A heuristic to **check if a [`hafas-client@5`](https://github.com/public-transport/hafas-client/tree/5) instance and the underlying HAFAS endpoint work.** It will query departures at a well-known station for the coming Monday 8am.
+A heuristic to **check if a [`hafas-client@5`](https://github.com/public-transport/hafas-client/tree/5)/[`hafas-client@6`](https://github.com/public-transport/hafas-client/tree/6) instance and the underlying HAFAS endpoint work.** It will query departures at a well-known station for the coming Monday 8am.
 
 [![npm version](https://img.shields.io/npm/v/hafas-client-health-check.svg)](https://www.npmjs.com/package/hafas-client-health-check)
 ![ISC-licensed](https://img.shields.io/github/license/public-transport/hafas-client-health-check.svg)

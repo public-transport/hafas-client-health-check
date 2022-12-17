@@ -42,7 +42,14 @@ const createHealthCheck = (hafas, stationId, hafasOpts = defaultHafasOpts) => {
 		.toJSDate()
 
 		return hafas.departures(stationId, opt)
-		.then(deps =>  deps.length > 0)
+		.then((res) => {
+			const deps = 'object' === typeof res && Array.isArray(res.departures)
+				// hafas-client@6
+				? res.departures
+				// hafas-client@5
+				: res
+			return deps.length > 0
+		})
 	}
 	return checkIfHealthy
 }

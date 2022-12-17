@@ -4,8 +4,8 @@ A heuristic to **check if a [`hafas-client@5`](https://github.com/public-transpo
 
 [![npm version](https://img.shields.io/npm/v/hafas-client-health-check.svg)](https://www.npmjs.com/package/hafas-client-health-check)
 ![ISC-licensed](https://img.shields.io/github/license/public-transport/hafas-client-health-check.svg)
-[![chat on gitter](https://badges.gitter.im/public-transport/Lobby.svg)](https://gitter.im/public-transport/Lobby)
-[![support Jannis via GitHub Sponsors](https://img.shields.io/badge/support%20Jannis-donate-fa7664.svg)](https://github.com/sponsors/derhuerst)
+[![support me via GitHub Sponsors](https://img.shields.io/badge/support%20me-donate-fa7664.svg)](https://github.com/sponsors/derhuerst)
+[![chat with me on Twitter](https://img.shields.io/badge/chat%20with%20me-on%20Twitter-1da1f2.svg)](https://twitter.com/derhuerst)
 
 
 ## Installation

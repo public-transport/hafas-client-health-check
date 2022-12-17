@@ -1,7 +1,7 @@
 {
 	"name": "hafas-client-health-check",
 	"description": "Check if a hafas-client instance and its endpoint work.",
-	"version": "2.1.1",
+	"version": "2.1.2",
 	"main": "index.js",
 	"files": [
 		"index.js",
